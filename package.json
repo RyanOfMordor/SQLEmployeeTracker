@@ -1,5 +1,5 @@
 {
-    "name": "sql-employee-tracker",
+    "name": "SQLEmployeeTracker",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,15 +8,15 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/isayani/sql-employee-tracker.git"
+      "url": "git+https://github.com/RyanOfMordor/SQLEmployeeTracker.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/isayani/sql-employee-tracker/issues"
+      "url": "https://github.com/RyanOfMordor/SQLEmployeeTracker/issues"
     },
-    "homepage": "https://github.com/isayani/sql-employee-tracker#readme",
+    "homepage": "https://github.com/RyanOfMordor/SQLEmployeeTracker#readme",
     "dependencies": {
       "dotenv": "^16.0.3",
       "inquirer": "^8.2.4",
