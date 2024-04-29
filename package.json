@@ -4,22 +4,23 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/RyanOfMordor/SQLEmployeeTracker.git"
+        "type": "git",
+        "url": "git+https://github.com/RyanOfMordor/SQLEmployeeTracker.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/RyanOfMordor/SQLEmployeeTracker/issues"
+        "url": "https://github.com/RyanOfMordor/SQLEmployeeTracker/issues"
     },
     "homepage": "https://github.com/RyanOfMordor/SQLEmployeeTracker#readme",
     "dependencies": {
-      "dotenv": "^16.0.3",
-      "inquirer": "^8.2.4",
-      "mysql2": "^2.3.3"
+        "dotenv": "^16.0.3",
+        "inquirer": "^8.2.4",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3"
     }
-  }
+}

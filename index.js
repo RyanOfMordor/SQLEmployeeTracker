@@ -1,6 +1,8 @@
 // importing package files (console.table no longer required)
 const inquirer = require("inquirer");
 const mysql = require("mysql2/promise");
+const fs = require('fs');
+
 
 // Encryption for env file
 require("dotenv").config();
@@ -15,10 +17,13 @@ async function dbConnection(select) {
   try {
     const db = await mysql.createConnection({
       host: "localhost",
-      user: dbUser,
-      password: dbPassword,
-      database: dbName,
+      user: 'root',
+      password: 'test123',
+      database: 'employee_tracker_db',
     });
+
+    const seedsSql = fs.readFileSync('seeds.sql', 'utf8');
+    const schemaSql = fs.readFileSync('schema.sql', 'utf8');
 
     // empty variables for query returns and prompt responses
     let returnedRowsFromDb = [];
